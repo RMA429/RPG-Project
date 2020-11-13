@@ -13,7 +13,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &-1585554015922575013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,6 +36,11 @@ PrefabInstance:
     - target: {fileID: 252694945386457962, guid: df2edd94dc7b0b043b042c64ed502916,
         type: 3}
       propertyPath: health
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 252694945386457962, guid: df2edd94dc7b0b043b042c64ed502916,
+        type: 3}
+      propertyPath: healthPoints
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3196581560753012304, guid: df2edd94dc7b0b043b042c64ed502916,
